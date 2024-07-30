@@ -5,6 +5,7 @@ const yearCopy = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearCopy.textContent = currentYear;
 
+// Navbar Scroll
 function userScroll() {
   const navbar = document.querySelector(".navbar");
 
